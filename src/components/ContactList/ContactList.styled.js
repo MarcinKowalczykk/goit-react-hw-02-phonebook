@@ -10,21 +10,16 @@ export const Contacts = styled.ul`
 
 export const ContactsItem = styled.li`
   padding: 10px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 30px;
-
-  
   border-radius: 5px;
 `;
 
 export const Name = styled.span`
   text-align: left;
   font-size: 22px;
-  color:#282828;
-
   flex-basis: 33.333%;
 `;
 
@@ -33,8 +28,6 @@ export const Number = styled.span`
 
   font-weight: 500;
   font-size: 22px;
-  color: #282828;
- 
   flex-basis: 33.333%;
 `;
 
@@ -45,18 +38,12 @@ export const Btn = styled.button`
 
   font-size: 18px;
   font-weight: 500;
-  color: #282828;
-
   background-color: transparent;
   border-radius: 5px;
   border: 1px solid #282828;
-
   cursor: pointer;
-
   transition: all 250ms ease-in-out;
-
   :hover {
     color: #ebf5fc;
-    background-color: #6a9bd8;
   }
 `;

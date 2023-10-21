@@ -11,7 +11,6 @@ export const Container = styled(Form)`
 export const Wrapper = styled.div`
   margin-bottom: 30px;
   max-width: 100%;
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -22,19 +21,16 @@ export const Label = styled.label`
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 24px;
-  color: #858585;
+  
   
 `;
 
 export const Input = styled(Field)`
   padding: 5px 10px;
   width: 100%;
-
   font-size: 24px;
-  color:#282828;
-
   background-color: transparent;
-  border: 1px solid #282828;;
+  border: 1px solid black;;
   border-radius: 5px;
   
 `;
@@ -49,10 +45,9 @@ export const Btn = styled.button`
 
   font-size: 24px;
   font-weight: 500;
-  color: #282828;
   background-color: transparent;
   border-radius: 5px;
-  border: 2px solid #282828;
+  border: 2px solid black;
   
 
   cursor: pointer;
